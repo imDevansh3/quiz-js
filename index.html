@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crazy Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="logo.jpeg" alt=" logo">
+            <ul>
+                <a href="#body">
+                    <li>HOME</li>
+                </a>
+                <a href="#quiz-container">
+                    <li>QUIZ</li>
+                </a>
+            </ul>
+        </div>
+<div id="quiz-container">
+    <h1>CRAZY QUIZ</h1>
+    <form id="quiz-form">
+    <div class="question">
+        <p>Q1</p>
+        <label>
+            <input type="radio" name="q1" value="a">a.
+        </label>
+        <label>
+            <input type="radio" name="q1" value="b">b.
+        </label>
+        <label>
+            <input type="radio" name="q1" value="c">c.
+        </label>
+        <label>
+            <input type="radio" name="q1" value="d">d.
+        </label>
+    </div>
+
+    <div class="question">
+        <p>Q2</p>
+        <label>
+            <input type="radio" name="q2" value="a">a.
+        </label>
+        <label>
+            <input type="radio" name="q2" value="b">b.
+        </label>
+        <label>
+            <input type="radio" name="q2" value="c">c.
+        </label>
+        <label>
+            <input type="radio" name="q2" value="d">d.
+        </label>
+    </div>
+
+    <div class="question">
+        <p>Q3</p>
+        <label>
+            <input type="radio" name="q3" value="a">a.
+        </label>
+        <label>
+            <input type="radio" name="q3" value="b">b.
+        </label>
+        <label>
+            <input type="radio" name="q3" value="c">c.
+        </label>
+        <label>
+            <input type="radio" name="q3" value="d">d.
+        </label>
+    </div>
+
+    <div class="question">
+        <p>Q4</p>
+        <label>
+            <input type="radio" name="q4" value="a">a.
+        </label>
+        <label>
+            <input type="radio" name="q4" value="b">b.
+        </label>
+        <label>
+            <input type="radio" name="q4" value="c">c.
+        </label>
+        <label>
+            <input type="radio" name="q4" value="d">d.
+        </label>
+    </div>
+    <button type="button" onclick="submitQuiz()">SUBMIT</button>
+</form>
+</div>
+<div id="result-container" style="display: none;">
+    <h2>Result</h2>
+    <p id="score">Total Correct Answers: <span id="correct-count">0</span></p>
+    <p id="total-questions">Total Questions: 0</p>
+</div>
+
+    </div>
+</body>
+</html>
