@@ -63,3 +63,11 @@ button{
 img{
     width: 100px;
 }
+label {
+    display: block;
+    margin-bottom: 10px; 
+}
+
+input[type="radio"] {
+    margin-right: 5px; 
+}
