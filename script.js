@@ -1,6 +1,6 @@
 function submitQuiz() {
     var score = 0;
-    var answers = ['a', 'b', 'c', 'd'];
+    var answers = ['d', 'b', 'b', 'a'];
     var userAnswers = [];
 
     for (var i = 1; i <= answers.length; i++) {
